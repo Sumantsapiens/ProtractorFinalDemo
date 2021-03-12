@@ -303,16 +303,148 @@
 										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//span[text()=project.variables.var11]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=project.variables.var11] &gt; .ui-button-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-4-content&apos;]/div/fact-type-form-details/div/form/fx-field[3]/div/div/span/dcn-select-button/div/p-selectbutton/div/div[2]/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-selectbutton/div/div[2]/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMultipleValues2" Key="{F3DA23B0-F7FB-40BA-A1D0-9101647A9FDE}">
+										<Image FileName="-1182387779" Left="655" Top="488" Right="783" Bottom="514" />
+										<TypeInfo Item0="{CB2B35E6-1C16-4936-A120-34C6033E3F5D}" />
+										<Selectors>
+											<Selector>
 												<Value Value="//span[text()=&apos;Multiple Values&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="[aria-label=&apos;Multiple Values&apos;] &gt; .ui-button-text" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;ui-accordiontab-4-content&apos;]/div/fact-type-form-details/div/form/fx-field[3]/div/div/span/dcn-select-button/div/p-selectbutton/div/div[2]/span" />
+												<Value Value="//div[@id=&apos;ui-accordiontab-0-content&apos;]/div/fact-type-form-details/div/form/fx-field[3]/div/div/span/dcn-select-button/div/p-selectbutton/div/div[2]/span" />
 											</Selector>
 											<Selector>
 												<Value Value="//p-selectbutton/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{766C8FA7-528D-46E1-A853-A25000DCB765}">
+										<Image FileName="633568012" Left="1289" Top="106" Right="1332" Bottom="161" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;SGP&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".wj-form-control:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div/div[2]/dcn-user-menu/div/wj-menu/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSapiensDecision2" Key="{F4EA083E-F7A9-4E9C-845A-6D735CFAA386}">
+								<Image FileName="-984170540" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/login.jsp*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF" Key="{E9F1026E-27A4-4972-B5B0-14E75A8D3F19}">
+										<Image FileName="-984170540" Left="485" Top="370" Right="885" Bottom="626" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{6029C819-A402-44EE-917E-5BE58B07F929}">
+										<Image FileName="-984170540" Left="525" Top="430" Right="845" Bottom="474" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{5CBD84B9-811A-40CA-9EE9-4457EFD68A6C}">
+										<Image FileName="-1040897082" Left="525" Top="496" Right="845" Bottom="540" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;password&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{7497C833-A1AB-432F-891A-9277CDF38A07}">
+										<Image FileName="394883277" Left="525" Top="550" Right="845" Bottom="586" />
+										<TypeInfo Item0="{57084058-9693-4D45-8E1B-439996FB90DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -337,6 +469,7 @@
 							<Child Name="textareaDescription" Owner="{E215BB8B-5FDC-4930-9BC3-6DD7279843D7}" />
 							<Child Name="textnodeSingleValue" Owner="{CE7E7051-86FC-4D5C-93C6-49E1004CB7C4}" />
 							<Child Name="textnodeMultipleValues" Owner="{70EFFDB9-7DE2-4C9A-9007-8AE64BB88117}" />
+							<Child Name="textnodeMultipleValues2" Owner="{F3DA23B0-F7FB-40BA-A1D0-9101647A9FDE}" />
 						</Child>
 						<Child Name="form4" Owner="{25CDFA77-8494-4372-88F6-A5824FD52F15}">
 							<Child Name="textbox" Owner="{356DFFE6-A143-4745-AE50-3A10F2A9B5BB}" />
@@ -347,6 +480,14 @@
 					<Child Name="buttonOk" Owner="{52402861-ED54-495D-B14A-9DBC932FB650}" />
 				</Child>
 				<Child Name="linkAutoft2V0" Owner="{191E6D55-0545-4219-82C2-F28B742982EC}" />
+				<Child Name="panel" Owner="{766C8FA7-528D-46E1-A853-A25000DCB765}" />
+			</Child>
+			<Child Name="pageSapiensDecision2" Owner="{F4EA083E-F7A9-4E9C-845A-6D735CFAA386}">
+				<Child Name="formF" Owner="{E9F1026E-27A4-4972-B5B0-14E75A8D3F19}">
+					<Child Name="textboxUsername" Owner="{6029C819-A402-44EE-917E-5BE58B07F929}" />
+					<Child Name="passwordboxPassword" Owner="{5CBD84B9-811A-40CA-9EE9-4457EFD68A6C}" />
+					<Child Name="submitbuttonLogin" Owner="{7497C833-A1AB-432F-891A-9277CDF38A07}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

@@ -40,7 +40,15 @@
 			<testItem name="Group1" key="{1B9F4023-92CC-4F4D-9BBA-1B2B462C6F2E}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="ProjectTestItem1" key="{3208065B-ED53-4409-992D-0443578D6D0C}" group="False" enabled="True" testMoniker="{1E85AD47-B550-427D-9435-1FCD2767C5F1}CreateFt2" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Login" key="{F8517CEC-F5B9-449B-BAB3-5A49D5B5CC77}" group="False" enabled="True" testMoniker="KDT\{4E93CBA3-BF0C-4565-AA88-18635CDA19BD}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="NavigateToTask" key="{B1676D5B-77E0-45CF-8609-A7B273885B22}" group="False" enabled="True" testMoniker="KDT\{3AF46F0F-5D6A-4920-A6BF-6BF0A9AD2FB0}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="ProjectTestItem1" key="{3208065B-ED53-4409-992D-0443578D6D0C}" group="False" enabled="True" testMoniker="{1E85AD47-B550-427D-9435-1FCD2767C5F1}CreateFt2" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
@@ -70,6 +78,9 @@
 					<DefValue RowCount="0" ColumnCount="0">
 						<Columns />
 					</DefValue>
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003900330044003300460034004400380046003300460034004500430039003800410037003900310044004100460043004500330031004600350043003000350035003400320034003800320032003100310041003600430034004400330031004400360035003200" />
 				</Variable>
 			</Items>
 		</data>
